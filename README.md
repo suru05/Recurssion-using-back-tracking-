@@ -8,10 +8,10 @@ void Name(int i, int N)
     if (i < N) {
         return;
     }
-    Name(i - 1, N);
-    cout << i << endl;
-       
+     Name(i - 1, N);
     
+    cout << i << endl;
+      
     
 }
 int main()
